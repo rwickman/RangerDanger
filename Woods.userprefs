@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\VoronoiDiagram.cs">
+    <Files>
+      <File FileName="Assets\Scripts\EnvironmentManager.cs" Line="223" Column="78" />
+      <File FileName="Assets\Scripts\GM.cs" Line="30" Column="26" />
+      <File FileName="Assets\Scripts\VoronoiDiagram.cs" Line="288" Column="41" />
+      <File FileName="Assets\Scripts\GameTile.cs" Line="70" Column="3" />
+      <File FileName="Assets\Scripts\HitDetect.cs" Line="21" Column="39" />
+      <File FileName="Assets\Scripts\PlayerAlive.cs" Line="29" Column="28" />
+      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="9" Column="28" />
+      <File FileName="Assets\Win.cs" Line="1" Column="1" />
+      <File FileName="Assets\PlayerSound.cs" Line="40" Column="3" />
+      <File FileName="Assets\Coin.cs" Line="20" Column="25" />
+      <File FileName="Assets\CoinCollect.cs" Line="8" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1872389864952274}
+  m_IsPrefabParent: 1
+--- !u!1 &1872389864952274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4805611131584002}
+  - component: {fileID: 114754751573632456}
+  m_Layer: 0
+  m_Name: Environment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4805611131584002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872389864952274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114754751573632456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1872389864952274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f355dde51b725c14b9d68c7170b9135c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xTiles: 150
+  yTiles: 150
+  treeMinDistance: 1.6
+  player: {fileID: 0}
+  end: {fileID: 1608260108249426, guid: 5bb6f2705ad6a1f41a1821a1b4a7898a, type: 2}
+  game: {fileID: 0}
+  minDistBetweenPaths: 10
+  numVoronoiCells: 150
+  lightFire: 1
+  generateTrees: 1
+  visualizeVoronoi: 0
+  groundTile: {fileID: 1624266605369674, guid: 91cf474527acf0e4788a5b17c7c98a10, type: 2}
+  tree: {fileID: 1225166485012274, guid: fbfa5220247d30a40b0d4a5f7d5f950c, type: 2}
+  bush: {fileID: 1904448255874272, guid: f3e21a1b7bbba4546ae7c2232ca1ad5a, type: 2}
+  groundContainer: {fileID: 1736666205460628, guid: 1851a05a2964ae64a911730310251bfd,
+    type: 2}
+  level: 1
